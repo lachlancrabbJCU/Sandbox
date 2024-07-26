@@ -12,6 +12,7 @@ def get_valid_password(minimum_length):
     while len(password) < minimum_length:
         print(f"Invalid, must be at least {minimum_length} characters long")
         password = input("Password: ")
+        print(f"Great Password: {password}")
     return password
 
 
